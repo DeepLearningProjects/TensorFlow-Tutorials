@@ -47,6 +47,8 @@ def model(X, W, B, init_state, lstm_size):
     # Get lstm cell output, time_step_size (28) arrays with lstm_size output: (batch_size, lstm_size)
     outputs, _states = rnn.rnn(lstm, X_split, initial_state=init_state)
 
+    print outputs
+
     # Linear activation
     # Get the last output
     return tf.matmul(outputs[-1], W) + B, lstm.state_size # State size to initialize the stat
