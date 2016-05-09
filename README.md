@@ -16,7 +16,7 @@ Newmu's [Theano Tutorials](https://github.com/Newmu/Theano-Tutorials).
 * Recurrent Neural Network (LSTM)
 * Word2vec
 * TensorBoard
-
+  
 ***Dependencies***
 * TensorFlow
 * Numpy
